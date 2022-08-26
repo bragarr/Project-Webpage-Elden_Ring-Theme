@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(/assets/font/Roboto-Regular.ttf) format('truetype');
+    src: url(../font/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto bold';
-    src: url(/assets/font/Roboto-Bold.ttf) format('truetype');
+    src: url(../font/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Roboto light italic';
-    src: url(/assets/font/Roboto-LightItalic.ttf) format('truetype');
+    src: url(../font/Roboto-LightItalic.ttf) format('truetype');
 }
 
 :root {
@@ -166,10 +166,6 @@ nav {
 
 .product__offer--text {
     font-size: 18px;
-}
-
-.sign__up--offer {
-
 }
 
 .website__footer {
