@@ -1,17 +1,24 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(../font/Roboto-Regular.ttf) format('truetype');
+    src: url(/assets/font/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto bold';
-    src: url(../font/Roboto-Bold.ttf) format('truetype');
+    src: url(/assets/font/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Roboto light italic';
-    src: url(../font/Roboto-LightItalic.ttf) format('truetype');
+    src: url(/assets/font/Roboto-LightItalic.ttf) format('truetype');
+    font-weight: light italic;
+}
+
+@font-face {
+    font-family: 'Roboto extra bold' format('truetype');
+    src: url(/assets/font/Roboto-Black.ttf);
+    font-weight: bold;
 }
 
 :root {
@@ -98,7 +105,7 @@ nav {
 }
 
 .img__presantation {
-    width: 40vw;
+    width: 30vw;
     height: auto;
     box-shadow: 4px 4px 4px #000000;
     margin-left: 3em;
@@ -109,8 +116,7 @@ nav {
     display: block;
     padding: 1.5em 0;
     font-size: 36px;
-    font-family: 'Roboto bold', sans-serif;
-    font-weight: bold;
+    font-family: 'Roboto extra bold', sans-serif;
     color: var(--dark-background);
 }
 
