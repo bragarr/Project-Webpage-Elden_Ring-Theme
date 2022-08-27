@@ -108,7 +108,7 @@ nav {
     margin: 0 20px;
 }
 
-.presantation--bosses {
+.presantation--enemy {
     margin: 3em 0 8em 0;
     padding: 0 12em 0 12em;
 }
@@ -129,12 +129,27 @@ nav {
 
 }
 
+.presantation--content {
+    margin: 3em 0 8em 0;
+    padding: 0 12em 0 12em;
+    text-align: left;
+    color: var(--dark-background);
+}
+
 .main__image--about {
+    width: 480px;
+    box-shadow: 4px 4px 4px #000000;
+    margin: 0 40px;
+}
+
+.main__image--about_emphasis {
     width: 720px;
+    box-shadow: 4px 4px 4px #000000;
+    margin: 0 60px;
 }
 
 
-.bosses__list {
+.enemy__list {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -142,19 +157,19 @@ nav {
     justify-content:center
 }
 
-.bosses__list--box {
+.enemy__list--box {
     text-align: center;
     padding: 3em 1.5em 0 1.5em;
 }
 
-.bosses__image {
+.enemy__image {
     width: 200px;
     border-radius: 0.5em;
     border: 0.2em solid var(--blue-button);
     opacity: 0.5;
 }
 
-.bosses__image:hover {
+.enemy__image:hover {
     opacity: 1;
     width: 360px;
     transition: 800ms;
@@ -214,4 +229,54 @@ nav {
 
 .sign__up--offer {
     border: 2px solid var(--standard-white);
+}
+
+.about__content--div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.about__content--div__end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, .textoContato {
+	display:  block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.inputStandard {
+	display:  block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.send {
+	width: 20%;
+	padding: 15px 0;
+	background: var(--blue-button);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
 }
